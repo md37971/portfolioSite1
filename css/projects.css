@@ -28,7 +28,7 @@
     float: left;
     font-size: 20px;
     margin-left: 120px;
-    padding-right: 500px;
+    padding-right: 90px;
     text-align: left;
 }
 
@@ -45,13 +45,14 @@
     bottom: 150px;
 }
 
-.alienBox hr {
-    height: 5px;
-    color:black
+hr {
+    color: black;
+    border-top: 3px solid black;
+    border-style: solid;
 }
 
 .moreSoon{
     text-align: center;
     bottom: 300px;
-    margin-bottom: 300px;
+    margin-bottom: 0px;
 }

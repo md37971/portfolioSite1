@@ -1,12 +1,14 @@
 body {
     background-color: rgba(181, 168, 168, 0.947);
     /*62, 62, 62, 0.947*/
+    margin: 0;
 }
 
 .navBar ul {
     overflow: hidden;
-    list-style-type: none;
+    list-style-position: inside;
     border: 3px solid;
+    margin: 0px;
     background-color: black;
 }
 
@@ -18,6 +20,7 @@ body {
     padding: 20px;
     border-radius: 50px;
     border-color: white;
+    margin-left: 5px;
 }
 
 .navBar li:hover {
@@ -36,4 +39,24 @@ body {
 
 .navBar a:visited {
     text-decoration: none;
+}
+
+/* Icon Ised: https://icons.getbootstrap.com/icons/house-door-fill/ */
+.navBar #home{
+    list-style-image: url(../images/home.svg);
+}
+
+/* Icon Used: https://icons.getbootstrap.com/icons/file-earmark-code-fill/ */
+.navBar #projects {
+    list-style-image: url(../images/projects.svg);
+}
+
+/* Icon Used: https://icons.getbootstrap.com/icons/github/ */
+.navBar #github {
+    list-style-image: url(../images/github.svg);
+}
+
+/* Icon Used: https://icons.getbootstrap.com/icons/person-fill/ */
+.navBar #contact {
+    list-style-image: url(../images/contact.svg);
 }
