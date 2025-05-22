@@ -30,6 +30,28 @@
     margin-left: 120px;
     padding-right: 90px;
     text-align: left;
+    overflow: hidden;
+}
+
+.alienBox a{
+    text-decoration: none;
+    color:blue
+}
+
+.alienBox a:hover {
+    background-color: blue;
+    color: white
+}
+
+.alienBox a:visited {
+    text-decoration: none;
+    color: blue;
+    font-style: none;
+}
+
+.alienBox a:hover {
+    color:white;
+    background-color: blue;
 }
 
 .alienBox p {
@@ -49,10 +71,4 @@ hr {
     color: black;
     border-top: 3px solid black;
     border-style: solid;
-}
-
-.moreSoon{
-    text-align: center;
-    bottom: 300px;
-    margin-bottom: 0px;
 }

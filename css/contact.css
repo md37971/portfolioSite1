@@ -1,0 +1,15 @@
+.message {
+    text-align: center;
+    background-color: lightgray;
+    padding: 25px;
+}
+
+.message p {
+    font-size: 20px;
+}
+
+hr {
+    color: black;
+    border-top: 3px solid black;
+    border-style: solid;
+}
