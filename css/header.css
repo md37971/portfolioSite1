@@ -1,7 +1,8 @@
 body {
-    background-color: rgba(181, 168, 168, 0.947);
-    /*62, 62, 62, 0.947*/
+    /*Old background-color: rgba(181, 168, 168, 0.947);*/
+    background-color: rgb(235, 226, 226);
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .navBar ul {
@@ -18,7 +19,7 @@ body {
     color: white;
     float: right;
     padding: 20px;
-    border-radius: 50px;
+    border-radius: 75px;
     border-color: white;
     margin-left: 5px;
 }

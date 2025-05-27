@@ -11,67 +11,89 @@
 <body>
     <nav class="navBar">
         <ul>
-            <li id="contact"><a href="contact.html" title="Contact Me!">Contact</li></a>
-            <li id="github"><a href="https://github.com/md37971" title="Redirects to my GitHub!">Github</li></a>
+            <a href="contact.html" title="Contact Me!"><li id="contact">Contact</a></li>
+            <li id="github"><a href="https://github.com/md37971" target="_blank" title="Redirects to my GitHub!">My Github</li></a>
             <li id="projects"><a href="projects.html" title="My Projects!">Projects</li></a>
             <li id="home"><a href="home.html" title="Home Page!">Home</li></a>
             <h1>"Michael Delgado__"</h1>
         </ul>
     </nav>
 
-    <div class="introBox">
-        <p style="font-size: 40px;"><b><u>My Projects!</b></u></p>
-        <hr>
+     <div class="introBox">
+        <p style="font-size: 40px;"><b>My Projects!</b></p>
+        <hr style="width: 25%;">
         <p>
-            Seeing what people would make in computers was always something that fascinated me, which has inspired me multiple times as a kid to develop projects on my own, though at times this was difficult learning by myself.
-            Fortunately, college has helped me learn about the fundamentals of programming, which helped me develop these fun side projects to make in my free time!
+            Seeing what people would make in computers was always something that fascinated me, especially playing fun video games, which has inspired me multiple times as a kid to develop projects on my own, though at times this was difficult learning by myself.
+            Fortunately, college has helped me learn about the fundamentals of programming, which helped me develop these fun side projects in my free time!
         </p>
-        <p>All of the projects listed here can be viewed on my <u style="color: blue;"><a href="https://github.com/md37971">GitHub!</a></u></p>
-    </div> 
-
-    <div class="alienBox">      
-        <aside>
-            <h2>Alien Delivery</h2>
-            <p><i>Small game developed in Pygame.</i></p>
-            <p>You're an alien who works in a delivery job, and you must deliver the package on time before it's late; however, there are dangerous obstacles in the sky. You still must deliver the package regardless.</p>
-            <p>Project Link: <u style="color: blue;"><a href="https://github.com/md37971/alienDelivery">View the project here.</a></u></p>
-            <article>
-                <img src="../images/alienGameplay.jpg">
-            <article>    
-        </aside>
-        <hr>
-        <aside>
-            <h2>DiceRollUI</h2>
-            <p><i>UI Project developed in Java & Python.</i></p>
-            <p>A UI program developed in Apache NetBeans to take the sum of three dices per iteration to measure the frequency of numbers.
-               Additionally, a simple add-on program developed in Python is included to display bar graphs of the data from the Java UI project.
-            </p>
-            <p>Project Link: <u style="color: blue;"><a href="https://github.com/md37971/DiceRollUIProject">View the project here.</a></u></p>
-            <article>
-                <img src="../images/diceroll.png">
-            <article>    
-        </aside>
-        <hr>
-        <aside>
-            <h2>Coming Soon...</h2>
-            <p><i>????</i></p>
-            <p>More projects to come soon! Stay tuned!</p>
-            <p>Project Link: <b><i>TBA</i></b></p>
-            <article>
-                <img src="../images/tba.jpg">
-            <article>    
-        </aside>
+        <p>All of the projects listed here can be viewed on my <u style="color: blue;"><a href="https://github.com/md37971" target="_blank">GitHub!</a></u></p>
     </div>
 
-    <!--Footer graphic bug (Needs rework)-->
+    <div id="container" style="padding-top: 5%;">
+        <div class="alienText">
+            <aside class="text">
+                <h2>Alien Delivery</h2>
+                <p><i>Developed in Python using the Pygame Library.</i></p>
+                <p>You're an alien who works in a delivery job, and you must deliver the package on time before it's late; however, there are dangerous obstacles in the sky. You still must deliver the package regardless.</p>
+                <a href="https://github.com/md37971/alienDelivery" target="_blank"><button><li id="github">View the project on GitHub</li></button></a>
+            </aside>
+         </div>
+         <div class="alienImage">
+            <article class="image">
+                <img src="../images/alienGameplay.jpg">
+            </article>
+        </div>
+    </div>
+
+    <hr id="separate">
+    <div id="container">
+        <div class="diceRollText">
+            <aside class="text">
+                <h2>DiceRollUI</h2>
+                <p><i>UI Project developed in Java & Python.</i></p>
+                <p>A UI program developed in Apache NetBeans to take the sum of three dices per iteration to measure the frequency of numbers.
+                Additionally, a simple add-on program developed in Python is included to display bar graphs of the data from the Java UI project.
+                </p>
+                <a href="https://github.com/md37971/DiceRollUIProject" target="_blank"><button><li id="github">View the project on GitHub</li></button></a>
+            </aside>
+            </div>
+            <div class="diceImage">
+            <article class="image">
+                <img src="../images/diceroll.png">
+            </article>
+            </div>
+        </div>
+    </div>
+
+    <hr id="separate">
+    <div id="container" style="padding-bottom: 7.5%;">
+        <div class="comingSoon">
+            <aside class="text">
+                <h2>Coming Soon...</h2>
+                <p><i>????</i></p>
+                <p>More projects to come soon! Stay tuned!</p>
+                <button style="padding: 5%; font-size: large;"><li id="github">Project soon on GitHub</li></button>
+            </aside>
+        </div>
+        <div class="tbaImage">    
+            <article class="image">
+                <img src="../images/tba.jpg">
+            </article>
+            </div>
+        </div>
+    </div>
+
+    <h2 style="text-align: center;">That's all folks! But don't worry, more projects are in development!</h2>
+    
     <footer class="bottomFoot">
         <ul>
             <li><a href="contact.html">Contact</li></a>
-            <li><a href="https://github.com/md37971">Github</li></a>
+            <li><a href="https://github.com/md37971" target="_blank">Github</li></a>
             <li><a href="projects.html">Projects</li></a>
             <li><a href="home.html">Home</li></a>
-            <h3>Michael Delgado</h3>
+            <h3>"Michael Delgado__"</h3>
         </ul>
-    </footer> 
+        <h5 style="text-align: center;">&copy; 2025 Michael Delgado - All rights reserved</h5>
+    </footer>
 </body>
 </html>

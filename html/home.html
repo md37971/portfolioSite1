@@ -13,8 +13,8 @@
 <body>
     <nav class="navBar">
         <ul>
-            <li id="contact"><a href="contact.html" title="Contact Me!">Contact</li></a>
-            <li id="github"><a href="https://github.com/md37971" title="Redirects to my GitHub!">Github</li></a>
+            <a href="contact.html" title="Contact Me!"><li id="contact">Contact</a></li>
+            <li id="github"><a href="https://github.com/md37971" target="_blank" title="Redirects to my GitHub!">My Github</li></a>
             <li id="projects"><a href="projects.html" title="My Projects!">Projects</li></a>
             <li id="home"><a href="home.html" title="Home Page!">Home</li></a>
             <h1>"Michael Delgado__"</h1>
@@ -25,24 +25,95 @@
         <aside class="imageSide">
             <img src="../images/mainPhoto.jpg">
         </aside>
-
         <article class="articleText">
             <h1 style="color: rgb(18, 158, 18); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">"Hello World__"<h1>
             <p>"My name is <u>Michael Delgado</u>, <br> majoring in Computer Science!"</p>   
             <p style="font-size: large;">"I'm currently an undergraduate student studying at the University of Arkansas - Fort Smith, exploring my passion in the field of CS!"</p>
             <a href="contact.html"><button>Get in Touch!</button></a> 
         </article>
+        <div>
+            <div id="theShapes">
+                <div class="pole"></div>
+                <div class="table"></div>
+            </div>
+        </div>
+    </div>
+    
+    <h1 style="font-size: 40px; text-align: center; color: darkslategray; padding-top: 6.5%;">About Me!</h1>
+    <hr style="border: 2px solid darkslategrey; width: 25%;">
+    <div id="aboutMe">
+        <div class="aboutImage">
+            <aside class="imageSide">
+              <img src="../images/aboutMePhoto.jpg">
+              <h4 id="test" style="text-align: center;"><i>A full picture of myself in my blue Ao Dai, which is a garment traditionally worn in Vietnam.</i></h4> 
+            </aside>
+        </div>
+        <div class="aboutText">
+           <article class="bulletPoints"> 
+            <h2>Hi, welcome to my website!</h2>
+            <ul>
+                <li><b>Name/Education: </b></b>Hey there again! My name is Michael Delgado, and I'm currently a student at the University of Arkansas - Fort Smith studying Computer Science with a minor in math to explore how CS advances and pursue my passions in the tech field!</li>
+                <li><b>Current Interests: </b> Though I have a general concentration in Computer Science, most of my interests involve applying programming concepts to develop projects that are fun to make or to use up spare time to showcase the world my skills and see what I can create!</li>
+                <li><b>Clubs/Activities: </b>I became an officer where I served as a treasurer (2024-2025) for the Vietnamese Student Association (VSA) where I was responsible for managing and monitoring the club's finances and purchases.
+                    Additionally, I volunteered to assist VSA for their events and perform dances for VSA.
+                </li>
+                <li><b>Objective: </b>With my knowlege in CS and problem solving skills, my goal is to contribute to the tech industry by making a positve impact and be part of the rapid change of technology advancements and developments in the future!</li>
+            </ul>
+        </article>
+        </div>
     </div>
 
-
+    <h1 style="text-align: center; font-size: 40px; color:darkslategray;">Technologies Used / Currently Learning</h1>
+    <hr style="border: 2px solid darkslategray; width: 55%; margin-bottom: 1.75%;">
+    <div id="techSkills">
+        <div class="java">
+            <h3 style="color: rgb(177, 101, 8);">Java</h3>
+            <hr>
+            <img src="../images/duke.png" style="padding-left: 5.9%;">
+            <ul>
+                <li>First learned Java at the University of Arkansas - Fort Smith.</li>
+                <li>Knowledge of the fundamentals and object-oriented concepts of programming.</li>
+                <li>Developed DiceRollUI as a personal project on my GitHub.</li>
+            </ul>
+        </div>
+        <div class="python">
+            <h3 style="color: rgb(4, 108, 164)">Python</h3>
+            <hr>
+            <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" style="padding-left: 5.5%;">
+            <ul>
+                <li>First learned Python in high school.</li>
+                <li>Recieved two Python certifications for understanding the fundamental concepts.</li>
+                    <ul>
+                        <li>Python Level 1 Certification issued by CodeHS in 2021.</li>
+                        <li>[PCEP-30-02] Certified Entry Level Python Programmer issued by OPENEDG Python Institute in 2023.</li>
+                     </ul>   
+                <li>Developed Alien Delivery in Python using the Pygame library as a personal project on my GitHub.</li>    
+            </ul>
+        </div>  
+        <div class="htmlCSS">
+            <h3><span style="color: rgb(5,123,187)">HTML</span> & <span style="color: rgb(255, 98, 0);">CSS</span></h3>
+            <hr>
+            <div id="twoImages">     
+            <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo.svg" style="margin-left: 25%;">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/css3/css3-original-wordmark.svg" style="margin-left: 0px;">
+            </div>
+            <ul>
+                <li>First learned HTML & CSS at the University of Arkansas - Fort Smith.</li>
+                <li>Developed personal portfolio site to showcase skills and information about me.</li>
+            </ul>
+        </div>
+    </div>
+    <h2 style="text-align: center; padding-bottom: 5%;">To see applications of the skills shown, refer to <a href="projects.html"><span class="skillsLink">my projects</a></span> page to see projects I developed.</h2>
+    
     <footer class="bottomFoot">
         <ul>
             <li><a href="contact.html">Contact</li></a>
-            <li><a href="https://github.com/md37971">Github</li></a>
+            <li><a href="https://github.com/md37971" target="_blank">Github</li></a>
             <li><a href="projects.html">Projects</li></a>
             <li><a href="home.html">Home</li></a>
-            <h3>Michael Delgado</h3>
+            <h3>"Michael Delgado__"</h3>
         </ul>
+        <h5 style="text-align: center;">&copy; 2025 Michael Delgado - All rights reserved</h5>
     </footer>
 </body>
 </html>

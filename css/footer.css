@@ -2,7 +2,6 @@
 footer {
     color:white;
     background-color: black;
-    margin-top: 505px;
     overflow: hidden;
 }
 
@@ -29,4 +28,9 @@ footer a:visited {
 
 footer a {
     color:white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }

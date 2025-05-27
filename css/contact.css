@@ -1,15 +1,53 @@
 .message {
     text-align: center;
     background-color: lightgray;
-    padding: 25px;
+    padding: 23px;
 }
 
 .message p {
     font-size: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 hr {
     color: black;
     border-top: 3px solid black;
     border-style: solid;
+    width: 84%;
+}
+
+#linkedIn {
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 8.5%;
+    padding-right: 8.5%;
+}
+
+#linkedIn .text{
+    padding-right: 12%;
+}
+
+#linkedIn button{
+    font-size: large;
+    border-radius: 75px;
+    padding: 2%;
+    color: white;
+    background-color: rgb(8, 123, 206);
+}
+
+#linkedIn button:hover {
+    background-color: rgb(7, 96, 160);
+    cursor: pointer;
+}
+
+#linkedIn #logo {
+    list-style-image: url(../images/contact.svg);
+}
+
+footer {
+    margin-top: 35px;
 }
