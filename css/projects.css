@@ -1,3 +1,4 @@
+
 .introBox p {
     text-align: center;
     font-size: 20px;
@@ -32,7 +33,7 @@
     border-style: solid;
     width: 85%;
 }
-/*Containers*/
+
 #container {
     display: flex;
     flex-direction: row;
@@ -46,9 +47,9 @@
 #container button{
     font-size: large;
     border-radius: 75px;
-    padding: 2%;
     color: black;
     background-color: white;
+    padding: 1em;
 }
 
 #container button:hover{
@@ -62,13 +63,18 @@ aside {
 
 #container img {
     height: 275px;
-    margin-left: 1%;
-    border-radius: 7.5%;
+    border-radius: 5.5%;
+    margin-left: auto;
 }
 
-#container .tbaImage img {
-    margin-left: 112%;
-    border-radius: 5%;
+#container .alienImage, .diceImage, .rotaractBotImage, .tbaImage{
+    margin-left: auto;
+}
+
+#container .rotaractBotImage img{
+    width: 80%;
+    height: 80%;
+    margin-left: 17%;
 }
 
 #separate {
@@ -80,4 +86,5 @@ aside {
 
 #container #github {
     list-style-image: url(../images/githubDark.svg);
+    margin-left: 23pt;
 }

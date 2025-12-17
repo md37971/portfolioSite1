@@ -48,17 +48,17 @@ button:hover {
     cursor: pointer;
 }
 
-
 #banner .imageSide img{
     float: left;
     margin-left: 25%;
-    margin-top: 15.5%;
+    margin-top: 13.5em;
     width: 135px;
     scale: 250%;
     border-radius: 50%;
     height: 145px;
     display: flex;
 }
+
 
 #banner .articleText h1,p {
     margin-right: 18%;
@@ -111,6 +111,7 @@ button:hover {
     padding-left: 8%;
     padding-bottom: 8%;
     font-size: large;
+    list-style-type: none;
 }
 
 #aboutMe .imageSide img {
@@ -201,4 +202,11 @@ h2 .skillsLink:hover {
 h2 .skillsLink:visited {
     color: blue;
     text-decoration: none;
+    font-style: none;
+}
+
+.li a:visited{
+    color: blue;
+    text-decoration: none;
+    font-style: none;
 }

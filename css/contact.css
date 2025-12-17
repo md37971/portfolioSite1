@@ -46,6 +46,11 @@ hr {
 
 #linkedIn #logo {
     list-style-image: url(../images/contact.svg);
+    margin-left: 20px;
+}
+
+#linkedIn .logo {
+    margin-left: auto;
 }
 
 footer {
