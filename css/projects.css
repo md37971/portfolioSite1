@@ -31,7 +31,7 @@
     color: black;
     border-top: 3px solid black;
     border-style: solid;
-    width: 85%;
+    width: 10%;
 }
 
 #container {
@@ -45,11 +45,11 @@
 }
 
 #container button{
-    font-size: large;
-    border-radius: 75px;
+    font-size: 18px;
+    border-radius: 1em;
     color: black;
     background-color: white;
-    padding: 1em;
+    padding: 0.5em;
 }
 
 #container button:hover{
@@ -85,6 +85,36 @@ aside {
 }
 
 #container #github {
-    list-style-image: url(../images/githubDark.svg);
-    margin-left: 23pt;
+    list-style-image: url(../images/icons/githubDark.svg);
+    margin-left: 2em;
+}
+
+@media (max-width: 700px) {
+    .introBox p{
+        font-size: medium;
+    }
+
+    #container {
+        flex-direction: column;
+        font-size: medium;
+    }
+    
+    #container button {
+        margin-bottom: 5%;
+        margin-left: 35%;
+        font-size: medium;
+    }
+
+    #container img {
+        height: auto;
+    }
+
+    #container img {
+        max-width: 100%;
+    }
+
+    hr {
+        width: 20%;
+    }
+
 }

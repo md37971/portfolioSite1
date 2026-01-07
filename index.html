@@ -4,116 +4,234 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    
     <link href="css/header.css" rel="stylesheet">
     <link href="css/home.css" rel="stylesheet">
+    <link href="css/modal.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="images/homePage/favicon.png">
     
 </head>
 <body>
     <nav class="navBar">
+        <h1 class="navName" id="navName">"Michael Delgado__"</h1>
         <ul>
-            <a href="contact.html" title="Contact Me!"><li id="contact">Contact</a></li>
-            <li id="github"><a href="https://github.com/md37971" target="_blank" title="Redirects to my GitHub!">My Github</li></a>
-            <li id="projects"><a href="projects.html" title="My Projects!">Projects</li></a>
-            <li id="home"><a href="index.html" title="Home Page!">Home</li></a>
-            <h1>"Michael Delgado__"</h1>
+            <a href="contact.html" title="Contact Me!"><li id="contact">Contact</li></a>
+            <a href="https://github.com/md37971" target="_blank" title="Visit my GitHub!"><li id="github">My Github</li></a>
+            <a href="projects.html" title="My Projects!"><li id="projects">Projects</li></a>
+            <a href="index.html" title="Home Page!"><li id="home">Home</li></a>
         </ul>
     </nav>
 
     <div id="banner">
         <aside class="imageSide">
-            <img src="images/mainPhoto.jpg">
+            <img src="images/homePage/mainPhoto.jpg">
         </aside>
-        <article class="articleText">
+        <article class="bannerText">
             <h1 style="color: rgb(18, 158, 18); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">"Hello World__"<h1>
-            <p>"My name is <u>Michael Delgado</u>, <br> majoring in Computer Science!"</p>   
-            <p style="font-size: large;">"I'm currently an undergraduate student studying at the University of Arkansas - Fort Smith, exploring my passion in the field of CS!"</p>
+            <p>"My name is <u>Michael Delgado</u>, majoring in Computer Science!"</p>   
+            <p style="font-size: large;">"I'm currently an undergraduate student studying at the University of Arkansas - Fort Smith, exploring my passion in the field of Computer Science!"</p>
             <a href="contact.html"><button>Get in Touch!</button></a> 
         </article>
-        <div>
-            <div id="theShapes">
-                <div class="pole"></div>
-                <div class="table"></div>
-            </div>
-        </div>
+    </div>
+    <div id="theShapes">
+        <div class="pole"></div>
+        <div class="table"></div>
     </div>
     
-    <h1 style="font-size: 40px; text-align: center; color: darkslategray; padding-top: 6.5%;">About Me!</h1>
-    <hr style="border: 2px solid darkslategrey; width: 25%;">
+    <div id="aboutMeHeader">
+        <h1 style="font-size: 40px; text-align: center; color: darkslategray; padding-top: 6.5%;">About Me!</h1>
+        <hr style="border: 2px solid darkslategrey;">
+    </div>
+    
+    
     <div id="aboutMe">
         <div class="aboutImage">
             <aside class="imageSide">
-              <img src="images/aboutMePhoto.jpg">
+              <img src="images/homePage/aboutMePhoto.jpg">
               <h4 id="test" style="text-align: center;"><i>A full picture of myself in my blue Áo dài, which is a garment traditionally worn in Vietnam.</i></h4> 
             </aside>
         </div>
         <div class="aboutText">
            <article class="bulletPoints"> 
             <h2>Hi, welcome to my website!</h2>
-            <ul>
-                <li><b>Name/Education: </b></b>Hey there again! My name is Michael Delgado, and I'm currently a student at the University of Arkansas - Fort Smith studying Computer Science with a minor in math to explore how CS advances and pursue my passions in the tech field!</li>
-                <li><b>Current Interests: </b> Though I have a general concentration in Computer Science, most of my interests involve applying programming concepts to develop projects that are fun to make or to use up spare time to showcase the world my skills and see what I can create!</li>
-                <li><b>Clubs/Activities: </b>I became an officer where I served as a treasurer (2024-2025) for the Vietnamese Student Association (VSA) where I was responsible for managing and monitoring the club's finances and purchases.
-                    Additionally, I volunteered to assist VSA for their events and perform dances for VSA.
-                </li>
-                <li><b>Objective: </b>With my knowlege in CS and problem solving skills, my goal is to contribute to the tech industry by making a positve impact and be part of the rapid change of technology advancements and developments in the future!</li>
-            </ul>
-        </article>
+                <ul>
+                    <li><b>Name/Education: </b></b>Hey there again! My name is Michael Delgado, and I'm currently a student at the University of Arkansas - Fort Smith studying Computer Science with a minor in math to explore the advancement of Computer Science and pursue my passions in the tech industry!</li>
+                    <li><b>Current Interests: </b> My current interests involve project based learning and learning new technology, aspring to look into software development opportunites for real world experience of creating software to solve real problems or information technology opportunites for hands on experience with computer hardware and networking. I also have a strong eagerness to learn more about the field in the tech industry!
+                    <li><b>Clubs/Activities: </b>I became an officer where I served as a treasurer (2024-2025) for the Vietnamese Student Association (VSA) where I was responsible for managing and monitoring the club's finances and purchases.
+                        Additionally, I volunteered to assist VSA for their events and perform dances for VSA. I also became treasurer for Rotaract (2025-2026) where I was responsible for the club's finances as well as volunteering for the community locally in Fort Smith.
+                    </li>
+                    <li><b>Goal: </b>With my knowlege in Computer Science and problem solving skills, my goal is to contribute to the tech industry by making an impact in the workforce and be part of the rapid change of technology and developments as I advance into my career!</li>
+                </ul>
+            </article>
         </div>
     </div>
 
-    <h1 style="text-align: center; font-size: 40px; color:darkslategray;">Technologies Used / Currently Learning</h1>
-    <hr style="border: 2px solid darkslategray; width: 55%; margin-bottom: 1.75%;">
-    <div id="techSkills">
-        <div class="java">
-            <h3 style="color: rgb(177, 101, 8);">Java</h3>
-            <hr>
-            <img src="images/duke.png" style="padding-left: 5.9%;">
-            <ul>
-                <li>First learned Java at the University of Arkansas - Fort Smith.</li>
-                <li>Knowledge of the fundamentals and object-oriented concepts of programming.</li>
-                <li>Developed DiceRollUI as a personal project on my GitHub.</li>
-            </ul>
-        </div>
-        <div class="python">
-            <h3 style="color: rgb(4, 108, 164)">Python</h3>
-            <hr>
-            <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" style="padding-left: 5.5%;">
-            <ul>
-                <li>First learned Python in high school.</li>
-                <li>Recieved two Python certifications for understanding the fundamental concepts.</li>
-                    <ul>
-                        <li>Python Level 1 Certification issued by CodeHS in 2021.</li>
-                        <li>[PCEP-30-02] Certified Entry Level Python Programmer issued by OPENEDG Python Institute in 2023.</li>
-                     </ul>   
-                <li>Developed Alien Delivery in Python using the Pygame library as a personal project on my GitHub.</li>    
-            </ul>
-        </div>  
-        <div class="htmlCSS">
-            <h3><span style="color: rgb(5,123,187)">HTML</span> & <span style="color: rgb(255, 98, 0);">CSS</span></h3>
-            <hr>
-            <div id="twoImages">     
-            <img src="images/htmlCSS.png" style="margin-left: center;">
+    <div id="techHeader">
+        <h1 style="text-align: center; color:darkslategray;">Technologies Used / Currently Learning</h1>
+        <h3 style="text-align: center; color: darkslategray;">Click on a programming language to view more details!</h3>
+    </div>
+
+    <div id="row" style="background-color: rgba(206, 195, 195, 0.684); padding-bottom: 3.5%;">
+        <div id="techCol">
+            <div class="pythonLang">
+                <button class="modalButtonClass">    
+                    <svg viewBox="0 0 512 512" class="pythonColor">
+                        <use xlink:href="images/homePage/python.svg">
+                    </svg>
+                    <h1>Python</h1>
+                    <hr>
+                </button>
+                <div class="modalBackground">
+                    <div class="modalContent">
+                        <h1>Python</h1>
+                        <hr style="width: 13.5%;">
+                        <div id="contentBlock">
+                            <article class="modalImageSide">
+                                <svg viewBox="0 0 512 512" id="pythonImageSide" style="fill: #3776AB;">
+                                    <use xlink:href="images/homePage/python.svg">
+                                </svg>
+                            </article>
+                            <aside class="modalTextSide" id="pythonTextSide">
+                                <ul>
+                                    <li>First learned Python in high school as my first programming language.</li>
+                                    <li>Recieved two Python certifications for understanding the fundamental concepts.</li>
+                                        <ul>
+                                            <li>Python Level 1 Certification issued by CodeHS in 2021.</li>
+                                            <li>[PCEP-30-02] Certified Entry Level Python Programmer issued by OPENEDG Python Institute in 2023.</li>
+                                        </ul>   
+                                    <li>Developed Alien Delivery in Python using the Pygame library as a personal project on my GitHub.</li>
+                                </ul>
+                            </aside>
+                        </div>
+                        <button class="closeButton">Close</button>
+                    </div>
+                </div>
             </div>
-            <ul>
-                <li>First learned HTML & CSS at the University of Arkansas - Fort Smith.</li>
-                <li>Developed personal portfolio site to showcase skills and information about me.</li>
-            </ul>
+            <div class="javaLang">
+                <button class="modalButtonClass">
+                    <img src="images/homePage/duke.png">
+                    <h1>Java</h1>
+                    <hr>
+                </button>
+                <div class="modalBackground">
+                    <div class="modalContent">
+                        <h1>Java</h1>
+                        <hr style="width: 13%;">
+                        <div id="contentBlock">    
+                            <article class="modalImageSide" style="padding: 3%;">
+                                <img src="images/homePage/duke.png" id="javaImageSide">
+                            </article>
+                            <aside class="modalTextSide" id="javaTextSide">
+                                <ul>
+                                    <li>First learned Java at the University of Arkansas - Fort Smith.</li>
+                                    <li>Knowledge of the fundamentals and object-oriented concepts of programming while also learning data structures.</li>
+                                    <li>Developed DiceRollUI as a personal project on my GitHub.</li>
+                                </ul>
+                            </aside>
+                        </div>
+                      <button class="closeButton">Close</button>  
+                    </div>   
+                </div>
+            </div>
+            <div class="htmlCSSLang">
+                <button class="modalButtonClass">
+                    <div class="twoImages">
+                        <svg viewBox="0 0 512 512" class="htmlColor">
+                            <use xlink:href="images/homePage/html5.svg">
+                        </svg>
+                        <svg viewBox="0 0 512 512" class="cssColor">
+                            <use xlink:href="images/homePage/css.svg">
+                        </svg>
+                    </div>
+                    <h2>HTML & CSS</h2>
+                    <hr style="width: 75%">
+                </button>
+                <div class ="modalBackground">
+                    <div class="modalContent">
+                        <h1>HTML & CSS</h1>
+                        <hr style="width: 22%;">
+                        <div id="contentBlock">
+                            <article class="modalImageSide">
+                                <svg viewBox="0 0 512 512" id="htmlImageSide" style="fill:#E34F26; border-radius:10%">
+                                    <use xlink:href="images/homePage/html5.svg">
+                                </svg>
+                                <svg viewBox="0 0 512 512" id="CSSImageSide" style="fill:#663399; border-radius:10%">
+                                    <use xlink:href="images/homePage/css.svg">
+                                </svg>
+                            </article>
+                            <aside class="modalTextSide" id="htmlCSSTextSide">
+                                <ul>
+                                    <li>First learned HTML & CSS at the University of Arkansas - Fort Smith.</li>
+                                    <li>Experienced with foundational HTML tags and basic CSS for frontend website design.</li>
+                                    <li>Developed this portfolio site to showcase skills, projects, and information about me.</li>
+                                </ul>
+                            </aside>
+                        </div>
+                        <button class="closeButton">Close</button>
+                    </div>
+                </div>
+            </div>
+            <div class="SQL">
+                <button class="modalButtonClass" style="margin-top: -12.5%;">
+                    <svg width="100px" height="100px" viewBox="145 -55 512 900" class="sqlColor">
+                            <use xlink:href="images/homePage/SQL.svg">
+                    </svg>
+                    <h1>SQL</h1>
+                    <hr style="width: 65%">
+                </button>
+                <div class="modalBackground">
+                    <div class="modalContent">
+                        <h1>SQL</h1>
+                        <hr style="width: 10%;">
+                        <div id="contentBlock">
+                            <article class="modalImageSide">
+                                <svg width="100px" height="200px" viewBox="145 -55 512 900" id="SQLImageSide" style="fill: #1e7dd6; border-radius:10%">
+                                    <use xlink:href="images/homePage/SQL.svg">
+                                </svg>
+                            </article>
+                            <aside class="modalTextSide" id="SQLTextSide">
+                                <ul>
+                                    <li>First learned SQL at the University of Arkansas - Fort Smith.</li>
+                                    <li>Experienced with fundamental SQL statements to create tables, manipulate data, joins, etc. in a SQL database.</li>
+                                    <li>Learned how to create a relational diagram / model for a database using normalization and entity relationship diagrams (ERD).</li>
+                                </ul>
+                            </aside>
+                        </div>
+                        <button class="closeButton">Close</button>
+                    </div>
+                </div>
+            </div>      
         </div>
     </div>
-    <h2 style="text-align: center; padding-bottom: 5%;">To see applications of the skills shown, refer to <a href="projects.html"><span class="skillsLink">My Projects</a></span> page to see projects I developed.</h2>
+
     
+    <h2 style="text-align: center; padding-bottom: 5%;">To see applications of the skills shown, refer to <a href="projects.html"><span class="skillsLink">My Projects</a></span> page to see projects I developed.</h2>
     <footer class="bottomFoot">
         <ul>
             <li><a href="contact.html">Contact</li></a>
             <li><a href="https://github.com/md37971" target="_blank">Github</li></a>
             <li><a href="projects.html">Projects</li></a>
-            <li><a href="index.html">Home</li></a>
-            <h3>"Michael Delgado__"</h3>
+            <li><a href="index.html">Home</li></a>            
+            <h3 id="footerLogo">"Michael Delgado__"</h3>
         </ul>
         <h5 style="text-align: center;">&copy; 2026 Michael Delgado - All rights reserved</h5>
     </footer>
+
+<script>
+let modals = document.getElementsByClassName('modalBackground');
+let buttons = document.getElementsByClassName("modalButtonClass");
+let closeButtons = document.getElementsByClassName("closeButton");
+
+for(let i = 0;i < buttons.length; i++){
+    buttons[i].onclick = function() {
+        modals[i].style.display = "block";
+    }
+}
+for(let i = 0; i < closeButtons.length; i++){
+    closeButtons[i].onclick = function() {
+        modals[i].style.display = "none";
+    }
+}
+</script>
 </body>
 </html>

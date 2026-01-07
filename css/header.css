@@ -1,8 +1,17 @@
 body {
-    /*Old background-color: rgba(181, 168, 168, 0.947);*/
     background-color: rgb(235, 226, 226);
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navName {
+    position: absolute;
+    margin-left: 3%;
+    background-color: black;
+}
+
+.navBar {
+    background-color: black;
 }
 
 .navBar ul {
@@ -19,7 +28,7 @@ body {
     color: white;
     float: right;
     padding: 20px;
-    border-radius: 75px;
+    border-radius: 0.5em;
     border-color: white;
     margin-left: 5px;
 }
@@ -42,22 +51,44 @@ body {
     text-decoration: none;
 }
 
+/* max-width: 600px */
+@media (max-width: 900px) {
+    .navBar li {
+        padding: 5px 5.4em;
+        font-size: 28.5px;
+        list-style-position: inside;
+    }
+
+    .navBar {
+        text-align: right;
+        background-color: black;
+    }
+
+    .navName {
+        position: relative;
+        right: 18%;
+        margin: 0;
+    }
+    
+}
+
+
 /* Icon Ised: https://icons.getbootstrap.com/icons/house-door-fill/ */
 .navBar #home{
-    list-style-image: url(../images/home.svg);
+    list-style-image: url(../images/icons/home.svg);
 }
 
 /* Icon Used: https://icons.getbootstrap.com/icons/file-earmark-code-fill/ */
 .navBar #projects {
-    list-style-image: url(../images/projects.svg);
+    list-style-image: url(../images/icons/projects.svg);
 }
 
 /* Icon Used: https://icons.getbootstrap.com/icons/github/ */
 .navBar #github {
-    list-style-image: url(../images/github.svg);
+    list-style-image: url(../images/icons/github.svg);
 }
 
 /* Icon Used: https://icons.getbootstrap.com/icons/person-fill/ */
 .navBar #contact {
-    list-style-image: url(../images/contact.svg);
+    list-style-image: url(../images/icons/contact.svg);
 }

@@ -34,3 +34,17 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+
+@media (max-width: 600px) {
+    footer h3 {
+        font-size: 15.5px;
+        text-align: center;
+    }
+
+    .bottomFoot li {
+        padding: 10px 10.4em;
+        font-size: 14.5px;
+        list-style-position: inside;
+    }
+}

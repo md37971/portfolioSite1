@@ -1,68 +1,58 @@
-
 /* HEADER BOX */
 #banner {
-    margin-top: 20px;
     overflow: hidden;
+    background-color: black;
+    margin-top: 1.8%;
+    padding-bottom: 5%;
+    border-radius: 3.5em;
+    border-color: gray;
+    border-style: solid;
+    border-width: 35px;
 }
 
-.articleText p h1{
+.bannerText p{
     color: white;
     font-size: 35px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    overflow: hidden;
+    margin-right: 20%;
 }
 
-.articleText {
-    background-color: black;
-    padding-bottom: 10%;
-    border-radius: 9%;
-    border-color: gray;
-    border-style: solid;
-    border-width: 30px;
+.bannerText {
+   margin-left: 25%;
+   margin-top: 5%;
 }
 
-.articleText h1 {
+.bannerText h1 {
     color:rgb(255, 255, 255);
-    text-align: left;
     font-size: 30px;
-    right: 150px;
-    top: 75px;
-    position: relative;
     text-decoration: none;
 }
 
-button {
+.bannerText button {
     background-color:#2ea92e;
     color:white;
-    size: 300px;
     font-size: 18px;
     width: 200px;
     height: 70px;
-    border-radius: 75px;
+    border-radius: 0.4em;
 }
 
-button:hover {
+.bannerText button:hover {
     background-color: green;
     cursor: pointer;
 }
 
-#banner .imageSide img{
-    float: left;
-    margin-left: 25%;
-    margin-top: 13.5em;
-    width: 135px;
-    scale: 250%;
-    border-radius: 50%;
-    height: 145px;
+#banner {
     display: flex;
+    flex-direction: row;
 }
 
-
-#banner .articleText h1,p {
-    margin-right: 18%;
-    left: 15%;
+#banner img {
+    border-radius: 50%;
+    height: 50dvh;
+    margin-left: 65%;
+    margin-top: 17.5%;
 }
 
 /* Shapes */
@@ -76,7 +66,6 @@ button:hover {
 #theShapes .stand {
     width: 50px;
     height: 50px;
-    display: flex;
     background-color: rgb(14, 181, 100);
 }
 
@@ -88,15 +77,19 @@ button:hover {
 }
 
 /* About Me */
+#aboutMeHeader hr{
+    width: 10%;
+}
+
 #aboutMe, .aboutImage .aboutText {
     display: flex;
     flex-direction: row;
     padding-left: 12.5%;
     padding-right: 15.5%;
     padding-top: 3%;
-    padding-bottom: 7.5%;
-    justify-content: space-evenly;
+    padding-bottom: 5%;
 }
+
 #aboutMe .aboutText li{
     margin-left: 5%;
 }
@@ -115,77 +108,90 @@ button:hover {
 }
 
 #aboutMe .imageSide img {
+    margin-top: 15%;
     border-radius: 5%;
-    display: block;
-    height: 570px;
-    
+    height: 35em;
 }
 
-/* Tech Skills */
-#techSkills  {
+/* NEW COL SKILLS */
+#techCol {
     display: flex;
-    padding: 2.5%;
-    width: 85%;
-    margin-left: 5%;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5%;
     padding-bottom: 2.5%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
-#techSkills h3{
-    font-size: 25px;
-    text-align: center;
+.pythonLang, .javaLang, .htmlCSSLang, .SQL {
+ margin-top: 30px;   
 }
 
-#techSkills img {
-    height: 100px;
-    justify-content: center;
-    margin-left: 35%;
-    margin-top: 3%;
+#techCol hr{
+    border: 1px solid rgb(0, 0, 0); 
+    margin-bottom: 1.75%;
+}
+
+#techCol img {
+    height: 90px;
+    margin-left: 10%;
+    margin-top: 2%;
     display: block;
 }
 
-#techSkills .java, .python, .htmlCSS {
-    background-color: rgb(239, 239, 239);
-    border: 7.5px;
-    border-radius: 15px;
-    border-style: solid;
-}
-
-#techSkills li {
-    padding: 1%;
-}
-
-#techSkills .java hr {
-    border: 2px solid orange;
-    width: 50%;
-}
-
-#techSkills .java {
-    border-color: orange;
-}
-
-#techSkills .python {
-    border-color: rgb(5, 123, 187);
-}
-
-#techSkills .python hr {
-    border: 2px solid rgb(5,123,187);
-    width: 50%;
-}
-
-#techSkills .htmlCSS {
-    border-color: rgb(5, 123, 187) rgb(255, 98, 0);
-}
-
-#techSkills .htmlCSS hr {
-    border: 2px solid rgb(5, 123, 187);
-    width: 50%;
-}
-
-#twoImages {
+#techCol .twoImages {
     display: flex;
     flex-direction: row;
-    position: relative;
+}
+
+#techCol .modalButtonClass:hover, hr:hover{
+    cursor: pointer;
+    color: rgb(16, 96, 96);
+    border-radius: 10%;
+}
+
+#techCol .pythonLang:hover {
+   fill: #3776AB
+}
+
+#javaImageSide{
+    height: 15px !important;
+    margin-right: 1.8cm;
+}
+
+#techCol .htmlCSSLang svg {
+    height: 100px;
+}
+
+#techHeader h1 {
+    font-size: 40px;
+}
+
+#techHeader h3 {
+    font-size: 20px;
+}
+
+.htmlColor:hover{
+    fill:#E34F26;
+}
+
+.cssColor:hover{
+    fill:#663399;
+}
+
+#htmlImageSide {
+    margin-left: 25%;
+}
+
+#CSSImageSide {
+    margin-left: 25%;
+}
+
+.SQL:hover {
+    fill: #1e7dd6;
 }
 
 h2 .skillsLink {
@@ -209,4 +215,57 @@ h2 .skillsLink:visited {
     color: blue;
     text-decoration: none;
     font-style: none;
+}
+
+@media (max-width: 900px) {
+    #banner {
+        flex-direction: column;
+    }
+
+    #banner img {
+        margin-left: 20%;
+        height: auto;
+        width: 65%;
+    }
+}
+
+@media (max-width: 800px) {
+    #aboutMe, .aboutImage .aboutText {
+        flex-direction: column;
+    }
+
+    #techCol {
+        justify-content: space-evenly;
+        padding: 5%;
+    }
+
+    #aboutMe .imageSide img{
+        border-radius: 5%;
+        height: 28.5em;
+        margin: auto;
+        display: block;
+    }
+
+    #theShapes .pole {
+        width: 125px;
+        height: 120px;
+        margin-left: calc(75%/2);
+    }
+
+    #aboutMeHeader hr{
+        width: 10%;
+    }
+
+    #aboutMe {
+        font-size: medium;
+    }
+
+    #techHeader h1{
+        font-size: xx-large;
+    }
+
+    #javaImageSide {
+        margin-left: 30% !important; 
+    }
+   
 }
