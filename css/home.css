@@ -50,7 +50,7 @@
 
 #banner img {
     border-radius: 50%;
-    height: 50dvh;
+    height: 370px;
     margin-left: 65%;
     margin-top: 17.5%;
 }
@@ -268,4 +268,5 @@ h2 .skillsLink:visited {
         margin-left: 30% !important; 
     }
    
+
 }
