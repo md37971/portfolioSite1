@@ -1,7 +1,11 @@
 .message {
     text-align: center;
-    background-color: lightgray;
-    padding: 23px;
+    background-color: rgb(202, 195, 195);
+    border-radius: 3vh;
+    padding: 10px;
+    width:85%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .message p {
@@ -11,13 +15,13 @@
 }
 
 hr {
-    color: black;
+    color:darkslategray;
     border-top: 3px solid black;
     border-style: solid;
     width: 10%;
 }
 
-#linkedIn {
+.container {
     display: flex;
     flex-direction: row;
     font-size: larger;
@@ -27,35 +31,55 @@ hr {
     padding-right: 8.5%;
 }
 
-#linkedIn .text{
+#separate {
+    border: 3px;
+    color: black;
+    border-style: solid;
+    width: 83%;
+}
+
+.container .text{
     padding-right: 12%;
 }
 
-#linkedIn button{
+.container button{
     font-size: 18px;
     border-radius: 1em;
     padding: 0.5em;
-    color: white;
-    background-color: rgb(8, 123, 206);
-}
-
-#linkedIn button:hover {
-    background-color: rgb(7, 96, 160);
     cursor: pointer;
 }
 
-#linkedIn #logo {
+button:hover {
+    background-color: rgb(206, 206, 206);
+}
+
+.container #linkedInlogo {
     list-style-image: url(../images/icons/contact.svg);
     margin-left: 1.8em;
 }
 
-#linkedInImage {
+.container #githubLogo {
+    list-style-image: url(../images/icons/github.svg);
+    margin-left: 1.8em;
+}
+
+#containerImage {
     height: 75%;
     width: 250px;
 }
 
-#linkedIn .logo {
+.container .imageLogo {
     margin-left: auto;
+}
+
+.container img:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.container img {
+    transform: scale(1);
+    transition: 0.5s;
 }
 
 footer {
@@ -67,19 +91,19 @@ footer {
         font-size: medium;
     }
 
-    #linkedIn {
+    .container {
         flex-direction: column;
         font-size: medium;
     }
 
-    #linkedIn button {
+    .container button {
         margin-bottom: 5%;
-        margin-left: 30%;
+        margin-left: 25%;
         font-size: medium;
     }
 
-    #linkedIn .logo {
-        margin-left: 1.4em;
+    .container .imageLogo {
+        margin-left: 10%;
     }
 
     hr {

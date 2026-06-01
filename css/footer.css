@@ -1,4 +1,3 @@
-
 footer {
     color:white;
     background-color: black;
@@ -35,6 +34,9 @@ footer a:hover {
     text-decoration: underline;
 }
 
+.bottomFoot h3:hover{
+    cursor: default;
+}
 
 @media (max-width: 600px) {
     footer h3 {
@@ -48,3 +50,4 @@ footer a:hover {
         list-style-position: inside;
     }
 }
+

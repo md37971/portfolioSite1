@@ -55,6 +55,16 @@
     margin-top: 17.5%;
 }
 
+#banner img:hover { /*When image is hovered*/
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+#banner img { /*When image is not hovered*/
+    transform: scale(1);
+    transition: 0.5s;
+}
+
 /* Shapes */
 #theShapes .pole{
     width: 250px;
@@ -111,6 +121,16 @@
     margin-top: 15%;
     border-radius: 5%;
     height: 35em;
+}
+
+#aboutMe .imageSide img:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+#aboutMe .imageSide img {
+    transform: scale(1);
+    transition: 0.5s;
 }
 
 /* NEW COL SKILLS */
@@ -268,5 +288,4 @@ h2 .skillsLink:visited {
         margin-left: 30% !important; 
     }
    
-
 }

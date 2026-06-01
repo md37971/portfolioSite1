@@ -7,39 +7,51 @@ body {
 .navName {
     position: absolute;
     margin-left: 3%;
-    background-color: black;
 }
 
 .navBar {
-    background-color: black;
+    background-color: rgb(235, 226, 226);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border: 1px solid rgb(201, 180, 180);
+    border-style: none none groove none;
+}
+
+.navBar h1{
+    transform: scale(1.0);
+    transition: 0.5s;
+}
+
+.navBar h1:hover{
+    cursor: default;
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .navBar ul {
     overflow: hidden;
     list-style-position: inside;
-    border: 3px solid;
     margin: 0px;
-    background-color: black;
 }
 
 .navBar li{
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
-    color: white;
+    color: black;
     float: right;
     padding: 20px;
-    border-radius: 0.5em;
     border-color: white;
     margin-left: 5px;
 }
 
 .navBar li:hover {
-    background-color: rgb(127, 126, 126);
+    background-color: rgb(202, 192, 192);;
 }
 
 .navBar h1 {
     font-size: 25px;
-    color:white
+    color:black;
 }
 
 .navBar a {
@@ -59,9 +71,9 @@ body {
         list-style-position: inside;
     }
 
-    .navBar {
+    .navBar{
         text-align: right;
-        background-color: black;
+        position: relative;
     }
 
     .navName {

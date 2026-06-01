@@ -1,14 +1,19 @@
 
 .introBox p {
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     padding-left: 5%;
     padding-right: 5%;
 }
 
 .introBox {
-    background-color: lightgray;
-    padding: 15px;  
+    background-color: rgb(202, 195, 195);
+    border-radius: 3vh;
+    padding: 10px;
+    width:85%;
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
 }
 
 .introBox a{
@@ -28,7 +33,7 @@
 }
 
 .introBox hr {
-    color: black;
+    color:darkslategray;
     border-top: 3px solid black;
     border-style: solid;
     width: 10%;
@@ -84,8 +89,18 @@ aside {
     width: 83%;
 }
 
+article img:hover { /*When image is hovered*/
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+article img { /* When image is not hovered*/
+    transform: scale(1);
+    transition: 0.5s;
+}
+
 #container #github {
-    list-style-image: url(../images/icons/githubDark.svg);
+    list-style-image: url(../images/icons/github.svg);
     margin-left: 2em;
 }
 
